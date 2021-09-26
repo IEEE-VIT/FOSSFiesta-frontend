@@ -1,12 +1,15 @@
 import React from "react";
-import "./navbar.styles.css";
 import { Link } from "react-router-dom";
+
+import "./navbar.styles.css";
+import NavLogo from "../../assets/navbar-logo.svg"
+
 
 const Navbar = () => {
   return (
     <nav>
-      <h1>FOSSFiesta</h1>
-      <div className="navs">
+      <img src={NavLogo} alt="" className="nav-logo"/>
+      <div className="nav-links">
         <div>
           <Link to="">Home</Link>
         </div>
@@ -23,7 +26,7 @@ const Navbar = () => {
           <Link to="">FAQs</Link>
         </div>
       </div>
-      <button>Register</button>
+      <button className="nav-btn">Register</button>
     </nav>
   );
 };
