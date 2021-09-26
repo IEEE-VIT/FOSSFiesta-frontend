@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./navbar.styles.css";
-import NavLogo from "../../assets/navbar-logo.svg"
+import NavLogo from "../../assets/svg/navbar-svg/navbar-logo.svg";
 
 
 const Navbar = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to="">FAQs</Link>
         </div>
       </div>
-      <button className="nav-btn">Register</button>
+      <a href="https://ieeevit.typeform.com/to/IHmhmcDk" target="_blank"><button className="nav-btn">REGISTER</button></a>
     </nav>
   );
 };
