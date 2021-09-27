@@ -21,13 +21,13 @@
     text-align: justify;
   }
   
+  
   /* Leaves */
   
   /* Large devices */
   @media (min-width: 1008px) {
     .about-container {
       display: flex;
-      /* grid-template-columns: 70% 30%; */
     }
     .about-text-container {
       align-content: center;
@@ -38,20 +38,15 @@
     .about-leaves img {
       width: 400px;
     }
+    .about-leaves-item2{
+        text-align: right;
+    }
     .about-leaves-item2 img {
       width: 300px;
     }
     .about-text-subtext p {
       padding: 20px 0;
     }
-    /* .about-leaves {
-          position: relative;
-        }
-      .about-leaves-item1-lg {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-        } */
     .about-text-subtext {
       font-size: 14px;
       text-align: justify;
