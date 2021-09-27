@@ -7,7 +7,10 @@ import DiscordBtnLogo from "../../assets/svg/discordbtn-svg/discord-btn.svg";
 const DiscordBtn = () => {
     return ( 
       <div className="discord-btn">
+        <a href="https://discord.com/invite/dPUFEGdqPH" target="_blank">
         <img src={DiscordBtnLogo} alt="" />
+        </a>
+
       </div>
     );
   };
