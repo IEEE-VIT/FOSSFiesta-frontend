@@ -6,7 +6,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/navbar";
 import Home from "./components/Home/home";
 import DiscordBtn from "./components/Discord-btn/discord-btn";
-// import About from "./components/About/about";
+import About from "./components/About/about";
 // import Timeline from "./components/Timeline/timeline";
 // import CodeSprint from "./components/CodeSprint/codesprint";
 // import FAQ from "./components/FAQ/faq";
@@ -18,8 +18,8 @@ const App = () => {
       <div className="content">
         <Home />
         <DiscordBtn/>
-        {/* <About />
-        <Timeline />
+        <About />
+        {/* <Timeline />
         <CodeSprint />
         <FAQ /> */}
       </div>
