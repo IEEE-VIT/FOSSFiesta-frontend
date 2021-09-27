@@ -1,0 +1,131 @@
+/* .about-container{
+    width: 100%;
+} */
+.about-text-container {
+    margin: 0 9vw 120px 9vw;
+  }
+  .about-text-heading {
+    font-size: 35px;
+    line-height: 37px;
+  }
+  .about-hr {
+    height: 0px;
+    border: 2px solid #8c2e13;
+    margin: 0 0 40px 0;
+    width: 300px;
+  }
+  .about-text-subtext {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+  }
+  
+  /* Leaves */
+  
+  /* Large devices */
+  @media (min-width: 1008px) {
+    .about-container {
+      display: flex;
+      /* grid-template-columns: 70% 30%; */
+    }
+    .about-text-container {
+      align-content: center;
+      justify-content: center;
+      margin: auto 9vw;
+      padding-right: 4vw;
+    }
+    .about-leaves img {
+      width: 400px;
+    }
+    .about-leaves-item2 img {
+      width: 300px;
+    }
+    .about-text-subtext p {
+      padding: 20px 0;
+    }
+    /* .about-leaves {
+          position: relative;
+        }
+      .about-leaves-item1-lg {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        } */
+    .about-text-subtext {
+      font-size: 14px;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: 0.01em;
+    }
+    .about-leaves-item1-sm,
+    .about-leaves-item2-sm {
+      display: none;
+    }
+  }
+  /* medium devices */
+  @media (min-width: 641px) and (max-width: 1007px) {
+    .about-text-heading {
+      font-size: 24.4846px;
+      line-height: 37px;
+    }
+    .about-hr {
+        width: 215px;
+      }
+    .about-text-subtext {
+      font-size: 14px;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: 0.01em;
+    }
+    .about-leaves-item1-lg,
+    .about-leaves-item2-lg {
+      display: none;
+    }
+    .about-leaves {
+      position: relative;
+    }
+    .about-leaves-item1-sm {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    
+  }
+  
+  /* mobile devices */
+  @media (max-width: 640px) {
+    .about-text-heading {
+      font-size: 24.4846px;
+      line-height: 37px;
+    }
+    .about-text-container {
+      margin: 2vh 9vw 120px 9vw;
+    }
+    .about-hr {
+        width: 215px;
+      }
+    .about-text-subtext {
+      font-size: 14px;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: 0.01em;
+    }
+    .about-leaves-item1-lg,
+    .about-leaves-item2-lg {
+      display: none;
+    }
+    .about-leaves {
+      position: relative;
+    }
+    .about-leaves-item1-sm {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  
+  }
+  
