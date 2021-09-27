@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.styles.css";
 import smLeaf1 from "../../assets/svg/about-svg/about-sm-leaf1.svg";
-import smLeaf2 from "../../assets/svg/about-svg/about-sm-leaf2-new-new.svg";
+import smLeaf2 from "../../assets/svg/about-svg/again.svg";
 import lgLeaf1 from "../../assets/svg/about-svg/about-lg-leaf1.svg";
 import lgLeaf2 from "../../assets/svg/about-svg/about-lg-leaf2.svg"; 
 
@@ -22,7 +22,7 @@ const About = () => {
               with fabulous swags at the end. So what are you waiting for?
             </p>
             <p className="about-text-subtext2">
-              Sign Up now for this is an opportunity you would not want to miss!
+            Sign Up now, for this is an opportunity you do not want to miss!
             </p>
           </div>
         </div>
