@@ -3,7 +3,7 @@ import React from "react";
 import "./home.styles.css";
 
 import Leftflower from "../../assets/svg/home-svg/home-leftflower.svg";
-import Rightflower from "../../assets//svg/home-svg/home-rightflower.svg";
+import Rightflower from "../../assets/svg/home-svg/home-rightflower.svg";
 import BrandFont from "../../assets/svg/home-svg/home-brandfont.svg";
 import Date from "../../assets/svg/home-svg/home-date.svg";
 import IEEELogo from "../../assets/svg/home-svg/home-IEEELogo.svg";

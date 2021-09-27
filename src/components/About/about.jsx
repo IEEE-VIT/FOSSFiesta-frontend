@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.styles.css";
 import smLeaf1 from "../../assets/svg/about-svg/about-sm-leaf1.svg";
-import smLeaf2 from "../../assets/svg/about-svg/again.svg";
+import smLeaf2 from "../../assets/svg/about-svg/about-sm-lear2.svg";
 import lgLeaf1 from "../../assets/svg/about-svg/about-lg-leaf1.svg";
 import lgLeaf2 from "../../assets/svg/about-svg/about-lg-leaf2.svg"; 
 
