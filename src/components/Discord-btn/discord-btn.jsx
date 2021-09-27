@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./discord-btn.styles.css";
-import DiscordBtnLogo from "../../assets/discord-btn-without-dropsh.svg";
+import DiscordBtnLogo from "../../assets/svg/discordbtn-svg/discord-btn.svg";
 
 
 const DiscordBtn = () => {

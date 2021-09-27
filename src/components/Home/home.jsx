@@ -2,12 +2,12 @@ import React from "react";
 
 import "./home.styles.css";
 
-import Leftflower from "../../assets/home-leftflower.svg";
-import Rightflower from "../../assets/home-rightflower.svg";
-import BrandFont from "../../assets/home-brandfont-new.svg";
-import Date from "../../assets/home-date.svg";
-import IEEELogo from "../../assets/home-IEEELogo.svg";
-import HactoberFestLogo from "../../assets/home-hactoberfestLogo.svg";
+import Leftflower from "../../assets/svg/home-svg/home-leftflower.svg";
+import Rightflower from "../../assets//svg/home-svg/home-rightflower.svg";
+import BrandFont from "../../assets/svg/home-svg/home-brandfont.svg";
+import Date from "../../assets/svg/home-svg/home-date.svg";
+import IEEELogo from "../../assets/svg/home-svg/home-IEEELogo.svg";
+import HactoberFestLogo from "../../assets/svg/home-svg/home-hactoberfestLogo.svg";
 
 
 const Home = () => {
@@ -30,7 +30,7 @@ const Home = () => {
             <img src={Date} alt="" />
           </div>
           <div className="home-middle-btn">
-            <button>REGISTER</button>
+          <a href="https://ieeevit.typeform.com/to/IHmhmcDk" target="_blank"><button >REGISTER</button></a>
           </div>
           <div className="home-middle-logos">
             <img src={IEEELogo} alt="" className="home-middle-logo1" />
