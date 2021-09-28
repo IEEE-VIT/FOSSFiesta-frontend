@@ -10,6 +10,9 @@
 .home-left img, .home-right img{
     width: 13vw;
 }
+.ieee-link,.home-middle-logos{
+   align-items: center;
+}
 .home-middle-subtext{
     color: rgb(168, 168, 168);
     text-align: center;

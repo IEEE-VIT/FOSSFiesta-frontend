@@ -1,7 +1,7 @@
 import React from "react";
 import "./codesprint.styles.css";
 
-import codesprint2 from "../../assets/svg/codesprint-svg/codesprint-left.svg";
+// import codesprint2 from "../../assets/svg/codesprint-svg/codesprint-left.svg";
 import codesprint1 from "../../assets/svg/codesprint-svg/codesprint-right.svg";
 
 const CodeSprint = () => {

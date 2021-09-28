@@ -34,8 +34,17 @@ const Home = () => {
           </a>
         </div>
         <div className="home-middle-logos">
-          <img src={IEEELogo} alt="" className="home-middle-logo1" />
-          <img src={HactoberFestLogo} alt="" className="home-middle-logo2" />
+          <a href="https://ieeevit.org/" target="_blank" rel="noreferrer" className="ieee-link">
+            <img src={IEEELogo} alt="" className="home-middle-logo1" />
+          </a>
+          <a
+            href="https://hacktoberfest.digitalocean.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+           
+            <img src={HactoberFestLogo} alt="" className="home-middle-logo2" />
+          </a>
         </div>
       </div>
       <div className="home-right home-item3">
