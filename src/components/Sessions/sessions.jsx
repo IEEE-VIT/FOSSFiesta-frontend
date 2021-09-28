@@ -13,7 +13,6 @@ const Sessions = () => {
             <h1 className="session-1-heading">Open Source Takeover</h1>
             <hr className="session-1-hr" />
           </div>
-
           <p className="session-1-subtext">
             Are you unsure what Hacktoberfest is? You won't be after Open Source
             Takeover since we've got you covered from the beginning of open
