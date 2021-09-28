@@ -110,6 +110,7 @@ const Register = () => {
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
+    // console.log("yes")
     if (validate()) {
       const config = {
         method: "post",
