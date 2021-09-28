@@ -9,8 +9,10 @@ const RegisterPage = () => {
       <div className="navbar">
         <NavbarRG />
       </div >
-      <div className="content"></div>
+      <div className="content">
       <Register />
+      </div>
+    
     </div>
   );
 };

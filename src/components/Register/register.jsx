@@ -149,7 +149,9 @@ const Register = () => {
     <div className="register-container">
       <div className="register-heading">
         <h1>REGISTER FOR</h1>
+        <img src={DesignLeft} alt="" className="bg bg-1"/>
         <img src={RegisterBrandFont} alt="" />
+        <img src={DesignRight} alt="" className="bg bg-2"/>
       </div>
 
       <div className="register-form-container">
@@ -196,8 +198,9 @@ const Register = () => {
             color="primary"
             style={{ color: "white" }}
           />
-          <FormControl>
-            <FormLabel>Are you a VITIAN?</FormLabel>
+          <FormControl className="vitian">
+            <div className="inner-vitian">
+            <FormLabel className="inner-vitian-question">Are you a VITIAN?</FormLabel>
             <RadioGroup
               name="vitian"
               value={values.gender}
@@ -210,6 +213,8 @@ const Register = () => {
               <FormControlLabel value="yes" control={<Radio />} label="Yes" />
               <FormControlLabel value="no" control={<Radio />} label="No" />
             </RadioGroup>
+            </div>
+           
             <FormHelperText>{errors.vitian}</FormHelperText>
           </FormControl>
 
