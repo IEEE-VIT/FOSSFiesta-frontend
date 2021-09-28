@@ -1,0 +1,227 @@
+.codesprint-container {
+    margin: 2vh 9vw;
+    text-align: justify;
+    padding-bottom: 50px;
+  }
+  .codesprint-1-heading,
+  .codesprint-2-heading {
+    margin-bottom: 0;
+  }
+  .codesprint-1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    overflow: hidden;
+  }
+  .codesprint-2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .codesprint-1-img {
+    text-align: right;
+  }
+
+  .codesprint-2-img {
+    text-align: left;
+  }
+  .codesprint-1-text {
+    /* align-content: center;
+        justify-content: center; */
+    /* margin: auto 9vw;
+        padding-right: 4vw; */
+  }
+  .codesprint-1-hr,
+  .codesprint-2-hr {
+    height: 0px;
+    border: 2px solid #8c2e13;
+  }
+  .codesprint-1-hr {
+    margin: 0 0;
+  }
+  
+  /* Large devices */
+  @media (min-width: 1008px) {
+    .codesprint-2-heading1 h1{
+        font-size: 25px;
+    }
+    .codesprint-2-heading2 h1{
+        font-size: 20px;
+    }
+    .codesprint-2-img{
+        width: 20vw;
+    }
+    .codesprint-2-img-sm {
+      display: none;
+    }
+    .codesprint-2 {
+      padding: 50px 0 0 0;
+    }
+   
+   
+    .codesprint-1-subtext, .codesprint-2-subtext {
+      font-size: 14px;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: 0.01em;
+    }
+    .codesprint-2 {
+      padding: 50px 0 0 0;
+    }
+    .codesprint-1-heading {
+      font-size: 33px;
+      margin-bottom: 0;
+    }
+    .codesprint-1-hr {
+      width: 200px;
+      margin: 0 0;
+    }
+   
+  
+    .codesprint-2-heading-container {
+      text-align: right;
+    }
+    .codesprint-2-hr {
+      width: 160px;
+      text-align: right;
+      margin: 0 0 30px auto;
+    }
+    .codesprint-1-img {
+
+    margin: 0 0 0 auto;
+    }
+  }
+  
+  /* medium devices */
+  @media (min-width: 641px) and (max-width: 1007px) {
+    .codesprint-2-img-sm {
+      display: none;
+    }
+    .codesprint-1-text,
+    .codesprint-2-text {
+      padding: 10px;
+    }
+    .codesprint-2-img img{
+        width: 40vw;
+    }
+    .codesprint-1-text {
+      overflow: hidden;
+    }
+    .codesprint-2 {
+      padding: 50px 0 0 0;
+    }
+    .codesprint-1-heading {
+      font-size: 33px;
+      text-align: left;
+    }
+    .codesprint-1-hr {
+      width: 200px;
+    }
+    .codesprint-2-heading {
+      font-size: 30px;
+      text-align: right;
+    }
+    .codesprint-2-heading-container {
+      text-align: right;
+    }
+    .codesprint-2-hr {
+      width: 160px;
+      text-align: right;
+      margin: 0 0 30px auto;
+    }
+    .codesprint-2-img,
+    .codesprint-1-img {
+      align-self: center;
+    }
+    .codesprint-2-heading2 h1 {
+        font-size: 20px;
+    
+      }
+      .codesprint-1-img {
+
+        width: 30vw;
+        text-align: center;
+        margin: 0 0 0 auto;
+          }
+  }
+  
+  /* mobile devices */
+  @media (max-width: 640px) {
+      .codesprint-container{
+          position: relative;
+      }
+      .codesprint-2-img{
+          position: absolute;
+          z-index: -1;
+      }
+    .codesprint-2-img-lg {
+      display: none;
+    }
+    .codesprint-1,
+    .codesprint-2 {
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .codesprint-1-heading {
+      font-size: 30px;
+    }
+    .codesprint-1-hr {
+      width: 180px;
+    }
+    .codesprint-1-img,
+    .codesprint-2-img {
+      text-align: center;
+      justify-content: center;
+      margin: 1vh 0 1vh 0;
+    }
+    
+    .codesprint-1-img img,
+    .codesprint-2-img img {
+      width: 30vh;
+    }
+    .codesprint-2 {
+      margin: 1vh 0 1vh 0;
+    }
+  
+    .codesprint-2-heading {
+      text-align: center;
+    }
+    .codesprint-2-heading1  {
+        font-size: 25px;
+        margin-top: 100px;
+     
+      }
+      .codesprint-2-text{
+          padding-top: 200px;
+      }
+      .codesprint-2-heading2 h1 {
+        font-size: 18px;
+    
+      }
+    .codesprint-2-heading-container {
+      text-align: right;
+    }
+    .codesprint-2-hr {
+      width: 165px;
+      text-align: right;
+      margin: 0 0 30px auto;
+    }
+  
+    .codesprint-1-subtext,
+    .codesprint-2-subtext {
+      /* font-size: 12px; */
+      line-height: 160%;
+      text-align: justify;
+      letter-spacing: 0.01em;
+    }
+    .codesprint-1-subtext{
+        padding-right: 3vw;
+    }
+    .codesprint-1-img {
+
+      width: 50vw;
+      text-align: center;
+      margin: 0 auto;
+        }
+  }
+  
