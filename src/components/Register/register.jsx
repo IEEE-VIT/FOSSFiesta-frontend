@@ -115,7 +115,7 @@ const Register = () => {
     e.preventDefault();
 
     const token = await recapthaRef.current.executeAsync();
-    console.log(token);
+    // console.log(token);
     if (validate()) {
       const config = {
         method: "post",
