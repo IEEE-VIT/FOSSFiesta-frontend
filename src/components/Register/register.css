@@ -71,9 +71,6 @@
 .message h2, .message h1{
     margin-bottom: 30px;
 }
-.postregister-middle{
-    /* flex: 60%; */
-}
 .bg{
     z-index: -1;
     /* flex: 20%;
