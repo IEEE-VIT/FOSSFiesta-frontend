@@ -1,12 +1,13 @@
 import React from "react";
 
+
 import Navbar from "../components/Navbar/navbar";
 import Home from "../components/Home/home";
 import DiscordBtn from "../components/Discord-btn/discord-btn";
 import About from "../components/About/about";
 import Sessions from "../components/Sessions/sessions";
 // import Timeline from "../components/Timeline/timeline";
-// import CodeSprint from "../components/CodeSprint/codesprint";
+import CodeSprint from "../components/CodeSprint/codesprint";
 // import FAQ from "../components/FAQ/faq";
 
 const HomePage = () => {
@@ -20,8 +21,9 @@ const HomePage = () => {
         <DiscordBtn />
         <About />
         <Sessions />
-         {/* <Timeline />
         <CodeSprint />
+         {/* <Timeline />
+      
         <FAQ /> */}
       </div>
     </div>
