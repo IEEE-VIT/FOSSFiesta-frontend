@@ -221,8 +221,8 @@ const Register = () => {
             <FormHelperText>{errors.vitian}</FormHelperText>
           </FormControl>
 
-          <div className="register-regbtn">
-            <Button onClick={handleOnSubmit}> REGISTER </Button>
+          <div onClick={handleOnSubmit} className="register-regbtn">
+            <Button> REGISTER </Button>
           </div>
         </form>
       </div>
