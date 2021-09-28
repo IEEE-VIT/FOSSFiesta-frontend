@@ -1,30 +1,18 @@
 import React from "react";
-// import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
-import Navbar from "./components/Navbar/navbar";
-import Home from "./components/Home/home";
-import DiscordBtn from "./components/Discord-btn/discord-btn";
-import About from "./components/About/about";
-import Sessions from "./components/Sessions/sessions";
-// import Timeline from "./components/Timeline/timeline";
-// import CodeSprint from "./components/CodeSprint/codesprint";
-// import FAQ from "./components/FAQ/faq";
+import HomePage from "./pages/HomePage";
+import RegisterPage from "./pages/RegisterPage";
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="navbar"><Navbar /></div>
-      <div className="content">
-        <Home />
-        <DiscordBtn/>
-        <About />
-        <Sessions/>
-        {/* <Timeline />
-        <CodeSprint />
-        <FAQ /> */}
-      </div>
+    <div>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/Register" component={RegisterPage} />
+      </Switch>
     </div>
   );
 };
