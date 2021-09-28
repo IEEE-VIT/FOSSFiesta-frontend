@@ -150,9 +150,9 @@ const Register = () => {
     <div className="register-container">
       <div className="register-heading">
         <h1>REGISTER FOR</h1>
-        <img src={DesignLeft} alt="" className="bg bg-1"/>
+        <img src={DesignLeft} alt="" className="bg bg-1" />
         <img src={RegisterBrandFont} alt="" />
-        <img src={DesignRight} alt="" className="bg bg-2"/>
+        <img src={DesignRight} alt="" className="bg bg-2" />
       </div>
 
       <div className="register-form-container">
@@ -201,26 +201,28 @@ const Register = () => {
           />
           <FormControl className="vitian">
             <div className="inner-vitian">
-            <FormLabel className="inner-vitian-question">Are you a VITian?</FormLabel>
-            <RadioGroup
-              name="vitian"
-              value={values.gender}
-              onChange={handleInputChange}
-              required
-              error={errors.vitian}
-              helperText={errors.vitian}
-              className="register-vitian-options"
-            >
-              <FormControlLabel value="yes" control={<Radio />} label="Yes" />
-              <FormControlLabel value="no" control={<Radio />} label="No" />
-            </RadioGroup>
+              <FormLabel className="inner-vitian-question">
+                Are you a VITian?
+              </FormLabel>
+              <RadioGroup
+                name="vitian"
+                value={values.gender}
+                onChange={handleInputChange}
+                required
+                error={errors.vitian}
+                helperText={errors.vitian}
+                className="register-vitian-options"
+              >
+                <FormControlLabel value="yes" control={<Radio />} label="Yes" />
+                <FormControlLabel value="no" control={<Radio />} label="No" />
+              </RadioGroup>
             </div>
-           
+
             <FormHelperText>{errors.vitian}</FormHelperText>
           </FormControl>
 
-          <div onClick={handleOnSubmit} className="register-regbtn">
-            <Button> REGISTER </Button>
+          <div className="register-regbtn">
+            <Button onClick={handleOnSubmit}> REGISTER </Button>
           </div>
         </form>
       </div>

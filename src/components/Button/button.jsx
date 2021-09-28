@@ -1,10 +1,12 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({children}) => {
-  return <div>
+const Button = ({ children }) => {
+  return (
+    <div>
       <button className="custom-btn">{children}</button>
-  </div>;
+    </div>
+  );
 };
 
 export default Button;
