@@ -1,0 +1,36 @@
+.vertical-timeline-element-icon{
+    border-radius: 4;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.vertical-timeline-element-title, .vertical-timeline-element-subtitle, .vertical-timeline-element--event p,.vertical-timeline-element--session p{
+    font-family: "Poppins";
+    line-height: 160%;
+    text-align: justify;
+    letter-spacing: 0.01em;
+}
+
+.vertical-timeline-element-title{
+    text-transform: uppercase;
+    
+}
+.vertical-timeline-element-subtitle{
+    font-family: "Poppins";
+    line-height: 160%;
+    text-align: justify;
+    letter-spacing: 0.01em;
+}
+.vertical-timeline-element--event p, .vertical-timeline-element--session p {
+    color: black;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: justify;
+    letter-spacing: 0.01em;
+}
