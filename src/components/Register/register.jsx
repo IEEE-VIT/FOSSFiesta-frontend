@@ -201,7 +201,7 @@ const Register = () => {
           />
           <FormControl className="vitian">
             <div className="inner-vitian">
-            <FormLabel className="inner-vitian-question">Are you a VITIAN?</FormLabel>
+            <FormLabel className="inner-vitian-question">Are you a VITian?</FormLabel>
             <RadioGroup
               name="vitian"
               value={values.gender}
@@ -226,8 +226,8 @@ const Register = () => {
       </div>
     </div>
   );
-  const message1 = "Successfully Registered for FOSSfiesta'21";
-  const message2 = "Oh, I see you have already registered!";
+  const message1 = "Successfully Registered for FOSSFiesta'21";
+  const message2 = "Oh, I see you have already registered.";
 
   const PostRegister = (
     <div className="postregister-container">

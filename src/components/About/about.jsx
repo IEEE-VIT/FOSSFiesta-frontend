@@ -15,8 +15,8 @@ const About = () => {
           <div className="about-text-subtext">
             <p className="about-text-subtext1">
               IEEE-VIT brings to you FOSSFiesta also called the party of free
-              and open source softwares, consisting of 2 sessions namely Coffee
-              with Open Source and Git Set Go, where we would be
+              and open source softwares, consisting of 2 sessions namely Open
+              Source Takeover and Git.Set.Go, where we would be
               inclined to help you solve all you doubts on open source,
               Hacktoberfest, GitHub, Git and have an amazing competition filled
               with fabulous swags at the end. So what are you waiting for?
