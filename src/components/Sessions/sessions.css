@@ -174,4 +174,8 @@
     text-align: justify;
     letter-spacing: 0.01em;
   }
+
+  .session-1-heading{
+    text-align: left;
+  }
 }

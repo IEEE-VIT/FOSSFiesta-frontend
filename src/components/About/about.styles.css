@@ -220,7 +220,7 @@
   .about-2-text-container {
     padding: 10px;
   }
-  .session-1-text {
+  .about-1-text {
     overflow: hidden;
   }
   /* .about-2-container {
@@ -245,10 +245,7 @@
     text-align: right;
     margin: 0 0 30px auto;
   }
-  .session-2-img,
-  .session-1-img {
-    align-self: center;
-  }
+ 
 }
 
 
