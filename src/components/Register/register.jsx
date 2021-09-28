@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 import RegisterBrandFont from "../../assets/svg/register-svg/register-brandfont.svg";
 import DesignLeft from "../../assets/svg/register-svg/register-left.svg";
 import DesignRight from "../../assets/svg/register-svg/register-right.svg";
 import "./register.css";
-
 
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "../Button/button";
@@ -61,10 +60,9 @@ const useStyle = makeStyles((theme) => ({
 }));
 
 const Register = () => {
-
   const [isRegistered, setRegistered] = useState(!true);
   const [isExistingUser, setExistinguser] = useState(false);
- 
+
   const initialValues = {
     id: 0,
     name: "",
@@ -92,19 +90,22 @@ const Register = () => {
       phone: 91,
     });
     values.phone = 91;
-    console.log(values.phone, "phone number trig");
+    // console.log(values.phone, "phone number trig");
   };
 
   const validate = () => {
     let temp = {};
     temp.name = values.name ? "" : "Required";
-    temp.email = (/$^|.+@.+..+/.test(values.email))&&(values.email!="") ? "" : "Email is not valid.";
+    temp.email =
+      /$^|.+@.+..+/.test(values.email) && values.email !== ""
+        ? ""
+        : "Email is not valid.";
     temp.phone = values.phone.length > 9 ? "" : "Invalid number";
     temp.vitian =
-      values.vitian == "yes" || values.vitian == "no" ? "" : "Required";
+      values.vitian === "yes" || values.vitian === "no" ? "" : "Required";
     setErrors({ ...temp });
-    console.log("validate ran", temp.email);
-    return Object.values(temp).every((x) => x == "");
+    // console.log("validate ran", temp.email);
+    return Object.values(temp).every((x) => x === "");
   };
 
   const handleOnSubmit = (e) => {
@@ -112,7 +113,7 @@ const Register = () => {
     if (validate()) {
       const config = {
         method: "post",
-        url: "http://52.190.60.170:3000/register/new",
+        url: `${process.env.REACT_APP_BACKEND_URL}/register/new`,
         headers: {
           "Content-Type": "application/json",
         },
@@ -125,7 +126,7 @@ const Register = () => {
       };
       axios(config)
         .then(function (response) {
-          console.log(JSON.stringify(response.data));
+          // console.log(JSON.stringify(response.data));
           if (response.data.hasOwnProperty("msg")) {
             console.log("Already registered!", isRegistered);
             setExistinguser(true);
@@ -214,7 +215,7 @@ const Register = () => {
           </FormControl>
 
           <div onClick={handleOnSubmit} className="register-regbtn">
-            <Button > REGISTER </Button>
+            <Button> REGISTER </Button>
           </div>
         </form>
       </div>
@@ -223,26 +224,24 @@ const Register = () => {
   const message1 = "Successfully Registered for FOSSfiesta'21";
   const message2 = "Oh, I see you have already registered!";
 
-
   const PostRegister = (
     <div className="postregister-container">
-      <img src={DesignLeft} alt="" className="bg bg-1"/>
+      <img src={DesignLeft} alt="" className="bg bg-1" />
       <div className="postregister-middle">
-      <div className="brand">
-        <img src={RegisterBrandFont} alt="" />
+        <div className="brand">
+          <img src={RegisterBrandFont} alt="" />
+        </div>
+        <div className="message">
+          <h2>{isExistingUser ? message2 : message1}</h2>
+          <h1>See you there!</h1>
+          {/* <button>JOIN CODESPRINT</button> */}
+        </div>
       </div>
-      <div className="message">
-        <h2>{isExistingUser ? message2 : message1}</h2>
-        <h1>See you there!</h1>
-        {/* <button>JOIN CODESPRINT</button> */}
-      </div>
-      </div>
-      
-      <img src={DesignRight} alt="" className="bg bg-2"/>
+
+      <img src={DesignRight} alt="" className="bg bg-2" />
     </div>
   );
 
- 
   return <div>{isRegistered ? PostRegister : Form}</div>;
 };
 
