@@ -20,15 +20,19 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-.App{
-  display: flex;   
+.App {
+  display: flex;
   flex-direction: column;
   height: 100vh;
 }
-.navbar{
+.navbar {
   flex: 0 1 50px;
 }
-.content{
+.content {
   flex: 1 1 auto;
   width: 100%;
+}
+
+.grecaptcha-badge {
+  display: none !important;
 }
