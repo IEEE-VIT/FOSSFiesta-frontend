@@ -1,6 +1,7 @@
 .session-container {
   margin: 2vh 9vw;
   text-align: justify;
+  padding-bottom: 50px;
 }
 .session-1-heading,
 .session-2-heading {

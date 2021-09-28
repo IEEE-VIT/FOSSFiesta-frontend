@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 import "./navbar.styles.css";
 import NavLogo from "../../assets/svg/navbar-svg/navbar-logo.svg";
 
-const Navbar = () => {
+
+const NavbarRG = () => {
   return (
     <nav>
-      <Link to="/">
-        <img src={NavLogo} alt="" className="nav-logo" />
-      </Link>
-
+      <Link to="/"><img src={NavLogo} alt="" className="nav-logo"/></Link>
       <div className="nav-links">
         <div>
           <Link to="">Home</Link>
@@ -28,11 +27,9 @@ const Navbar = () => {
           <Link to="">FAQs</Link>
         </div>
       </div>
-      <Link to="/register">
-        <button className="nav-btn">REGISTER</button>
-      </Link>
+     <div></div>
     </nav>
   );
 };
 
-export default Navbar;
+export default NavbarRG;

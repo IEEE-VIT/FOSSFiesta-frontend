@@ -1,0 +1,11 @@
+.custom-btn{
+    margin: 10px 0;
+    padding: 0px 12px;
+    color: white;
+    background-color: #2b3531;
+    border: 2.02899px solid #B04814;
+    border-radius: 4px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
