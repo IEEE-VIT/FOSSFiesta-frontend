@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { createRef, useState } from "react";
 import axios from "axios";
 
 import RegisterBrandFont from "../../assets/svg/register-svg/register-brandfont.svg";
@@ -14,6 +14,7 @@ import FormHelperText from "@material-ui/core/FormHelperText";
 import { FormControl, Radio, RadioGroup } from "@mui/material";
 import { FormControlLabel } from "@mui/material";
 import { FormLabel } from "@mui/material";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -63,6 +64,8 @@ const Register = () => {
   const [isRegistered, setRegistered] = useState(!true);
   const [isExistingUser, setExistinguser] = useState(false);
 
+  const recapthaRef = createRef();
+
   const initialValues = {
     id: 0,
     name: "",
@@ -108,9 +111,11 @@ const Register = () => {
     return Object.values(temp).every((x) => x === "");
   };
 
-  const handleOnSubmit = (e) => {
+  const handleOnSubmit = async (e) => {
     e.preventDefault();
-    // console.log("yes")
+
+    const token = await recapthaRef.current.executeAsync();
+    // console.log(token);
     if (validate()) {
       const config = {
         method: "post",
@@ -123,6 +128,7 @@ const Register = () => {
           email: values.email,
           phone: values.phone,
           vit: values.vitian,
+          token,
         },
       };
       axios(config)
@@ -227,6 +233,12 @@ const Register = () => {
           </div>
         </form>
       </div>
+      <ReCAPTCHA
+        ref={recapthaRef}
+        size="invisible"
+        sitekey={process.env.REACT_APP_SITE_KEY}
+        theme="dark"
+      />
     </div>
   );
   const message1 = "Successfully Registered for FOSSFiesta'21";
