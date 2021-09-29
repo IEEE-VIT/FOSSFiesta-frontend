@@ -7,6 +7,9 @@ import Icon from "../icons/icons"
 const Timeline = () => {
   const peachbg = '#F4F0E1'
   return <div>
+   <h1 className="timeline-title">
+     Timeline
+   </h1>
   <VerticalTimeline>
     <VerticalTimelineElement
       className="vertical-timeline-element--session"

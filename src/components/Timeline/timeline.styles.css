@@ -45,7 +45,15 @@
     font-size: 20px;
     font-weight: 600;
 }
-
+.timeline-title{
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-size: 32.647px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
 @media (min-width: 1152px){
     .vertical-timeline-element-date{
         color: #FFFFFF !important;
