@@ -50,7 +50,7 @@ const Timeline = () => {
       <h3 className="vertical-timeline-element-title">Code Sprint</h3>
       {/* <h4 className="vertical-timeline-element-subtitle">Event</h4> */}
       <p>
-      One of the most eagerly anticipated competitions from us during Hacktober, as you will be competing in a 24-hour sprint.
+      One of the most eagerly anticipated competitions from us during HacktoberFest, as you will be competing in an 8-hour sprint.
       </p>
     </VerticalTimelineElement>
  

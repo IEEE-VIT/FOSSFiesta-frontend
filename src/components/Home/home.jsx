@@ -2,6 +2,7 @@ import React from "react";
 
 import "./home.styles.css";
 import ButtonLgWhite from "../Button/button-lg-white";
+import LinkImage from "../Linkimage/linkimage";
 
 import Leftflower from "../../assets/svg/home-svg/home-leftflower.svg";
 import Rightflower from "../../assets/svg/home-svg/home-rightflower.svg";
@@ -35,17 +36,8 @@ const Home = () => {
           </a>
         </div>
         <div className="home-middle-logos">
-          <a href="https://ieeevit.org/" target="_blank" rel="noreferrer" className="ieee-link">
-            <img src={IEEELogo} alt="" className="home-middle-logo1" />
-          </a>
-          <a
-            href="https://hacktoberfest.digitalocean.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-           
-            <img src={HactoberFestLogo} alt="" className="home-middle-logo2" />
-          </a>
+        <LinkImage link={"https://ieeevit.org/"} img={IEEELogo} link_class={"ieee-link"} img_class={"home-middle-logo1"}/>
+        <LinkImage link={"https://hacktoberfest.digitalocean.com/"} img={HactoberFestLogo} link_class={"ieee-link"} img_class={"home-middle-logo2"}/>
         </div>
       </div>
       <div className="home-right home-item3">
