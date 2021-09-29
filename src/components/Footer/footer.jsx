@@ -81,9 +81,7 @@ const Footer = (props) => {
               img_class="footer-social-icon"
             />
           </div>
-          <div className="footer-2-subtext">
-            Copyright © 2021 IEEE-VIT. All rights reserved.
-          </div>
+          <div className="footer-2-subtext">Made with ❤️ by IEEE-VIT</div>
         </div>
 
         <LinkImage
@@ -146,9 +144,7 @@ const Footer = (props) => {
               img_class="footer-social-icon"
             />
           </div>
-          <div className="footer-2-subtext">
-            Copyright © 2021 IEEE-VIT. All rights reserved.
-          </div>
+          <div className="footer-2-subtext">Made with ❤️ by IEEE-VIT</div>
         </div>
       </div>
     </div>
