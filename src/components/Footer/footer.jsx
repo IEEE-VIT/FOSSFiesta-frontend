@@ -16,7 +16,7 @@ import Button3 from "../Button/button-3";
 const facebook_link = "https://www.facebook.com/IEEEVIT/";
 const instagram_link = "https://www.instagram.com/ieeevitvellore/?hl=en";
 const github_link = "https://github.com/IEEE-VIT";
-const twitter_link = "https://twitter.com/ieeevit?lang=en";
+const twitter_link = "https://twitter.com/ieeevitvellore";
 const linkedin_link = "https://in.linkedin.com/company/ieee-vit-vellore";
 const ieee_link = "https://ieeevit.org/";
 
