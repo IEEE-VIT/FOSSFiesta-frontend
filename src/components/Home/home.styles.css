@@ -26,18 +26,7 @@ hr{
     margin: 20px 0 40px 0;
 }
 .home-middle-btn button{
-    color: black;
-    background-color: #F4F0E1;
-    border: 2.02899px solid #B04814;
-    border-radius: 4px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Poppins";
-    font-weight: 550;
-    font-size: 18px;
-    line-height: 27px;
     width: 440px;
-    padding: 5px 0;
 }
 
 .home-middle-btn button:hover{
