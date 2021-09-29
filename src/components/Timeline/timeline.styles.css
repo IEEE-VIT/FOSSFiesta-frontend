@@ -1,3 +1,7 @@
+.vertical-timeline{
+    margin-bottom: 4em!important;
+}
+
 .vertical-timeline-element-icon{
     border-radius: 4;
     position: relative;
@@ -39,6 +43,7 @@
     font-size: 20px !important;
     font-weight: 600 !important;
     color: #000000  !important;
+ 
 }
 
 .vertical-timeline-element-content span{
@@ -59,6 +64,7 @@
         color: #FFFFFF !important;
         font-weight: 800 !important;
         font-size: 23px  !important;
+        padding: .3em .7em 0 0.7em !important;
     }
 
 }
