@@ -6,7 +6,10 @@
   width: 100%;
 }
 .footer-1 {
-  margin: 50px 20vw 100px 20vw;
+  margin: 50px 20vw 9vw 20vw;
+}
+.footer-1-subtext{
+    padding-bottom: 10px;
 }
 .footer-2-heading{
     font-size: 25px;

@@ -32,12 +32,14 @@ const Footer = (props) => {
             developers and designers who live with the motto "Advancing
             Technology for Humanity".
           </p>
-          <Button3>VISIT WEBSITE</Button3>
+          <a href={ieee_link} target="_blank" rel="noreferrer">
+            {" "}
+            <Button3>VISIT WEBSITE</Button3>
+          </a>
         </div>
       </div>
 
       <div className="footer-2-container-lg">
-
         <LinkImage
           link={"https://ieeevit.org/"}
           img={IEEELogo}
@@ -84,7 +86,12 @@ const Footer = (props) => {
           </div>
         </div>
 
-        <LinkImage link={""} img={BrandFont} link_class={""} img_class={"footer-2-lg-grid3"} />
+        <LinkImage
+          link={""}
+          img={BrandFont}
+          link_class={""}
+          img_class={"footer-2-lg-grid3"}
+        />
       </div>
 
       {/* lkdfajdlfajkd-----------------------------------------------------------dj;saf */}
