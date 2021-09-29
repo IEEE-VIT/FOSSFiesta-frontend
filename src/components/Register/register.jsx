@@ -86,15 +86,15 @@ const Register = () => {
     });
   };
 
-  const givedefaultNumberCode = (e) => {
-    e.preventDefault();
-    setvalues({
-      ...values,
-      phone: 91,
-    });
-    values.phone = 91;
-    // console.log(values.phone, "phone number trig");
-  };
+  // const givedefaultNumberCode = (e) => {
+  //   e.preventDefault();
+  //   setvalues({
+  //     ...values,
+  //     phone: 91,
+  //   });
+  //   values.phone = 91;
+  //   // console.log(values.phone, "phone number trig");
+  // };
 
   const validate = () => {
     let temp = {};
@@ -198,7 +198,7 @@ const Register = () => {
             variant="outlined"
             value={values.phone}
             onChange={handleInputChange}
-            onClick={givedefaultNumberCode}
+            // onClick={givedefaultNumberCode}
             required
             error={errors.phone}
             helperText={errors.phone}
