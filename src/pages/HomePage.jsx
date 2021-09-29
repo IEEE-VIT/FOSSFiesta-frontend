@@ -6,7 +6,7 @@ import Home from "../components/Home/home";
 import DiscordBtn from "../components/Discord-btn/discord-btn";
 import About from "../components/About/about";
 import Sessions from "../components/Sessions/sessions";
-// import Timeline from "../components/Timeline/timeline";
+import Timeline from "../components/Timeline/timeline";
 import CodeSprint from "../components/CodeSprint/codesprint";
 // import FAQ from "../components/FAQ/faq";
 
@@ -20,11 +20,10 @@ const HomePage = () => {
         <Home />
         <DiscordBtn />
         <About />
+        <Timeline />
         <Sessions />
         <CodeSprint />
-         {/* <Timeline />
-      
-        <FAQ /> */}
+        {/* <FAQ /> */}
       </div>
     </div>
   );
