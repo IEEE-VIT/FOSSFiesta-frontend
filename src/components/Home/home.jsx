@@ -14,9 +14,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-left home-item1">
-        <a href="#">
           <img src={Leftflower} alt="" />
-        </a>
       </div>
       <div className="home-middle home-item2">
         <div className="home-middle-brandfont">
