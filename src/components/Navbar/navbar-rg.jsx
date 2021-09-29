@@ -10,7 +10,7 @@ const NavbarRG = () => {
   return (
     <nav>
       <Link to="/"><img src={NavLogo} alt="" className="nav-logo"/></Link>
-      <div className="nav-links">
+      {/* <div className="nav-links">
         <div>
           <Link to="">Home</Link>
         </div>
@@ -27,7 +27,9 @@ const NavbarRG = () => {
           <Link to="">FAQs</Link>
         </div>
       </div>
-     <div></div>
+     <div>
+       
+     </div> */}
     </nav>
   );
 };

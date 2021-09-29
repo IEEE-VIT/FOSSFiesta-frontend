@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./home.styles.css";
+import ButtonLgWhite from "../Button/button-lg-white";
 
 import Leftflower from "../../assets/svg/home-svg/home-leftflower.svg";
 import Rightflower from "../../assets/svg/home-svg/home-rightflower.svg";
@@ -30,7 +31,7 @@ const Home = () => {
         </div>
         <div className="home-middle-btn">
           <a href="/register">
-            <button>REGISTER</button>
+            <ButtonLgWhite>REGISTER</ButtonLgWhite>
           </a>
         </div>
         <div className="home-middle-logos">

@@ -7,7 +7,7 @@ import DesignRight from "../../assets/svg/register-svg/register-right.svg";
 import "./register.css";
 
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "../Button/button";
+import ButtonLgWhite from "../Button/button-lg-white";
 
 import TextField from "@mui/material/TextField";
 import FormHelperText from "@material-ui/core/FormHelperText";
@@ -48,13 +48,13 @@ const useStyle = makeStyles((theme) => ({
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "#E5E5E5",
+        borderColor: "grey",
       },
       "&:hover fieldset": {
         borderColor: "white",
       },
       "&.Mui-focused fieldset": {
-        borderColor: "grey",
+        borderColor: "white",
       },
     },
   },
@@ -86,15 +86,15 @@ const Register = () => {
     });
   };
 
-  const givedefaultNumberCode = (e) => {
-    e.preventDefault();
-    setvalues({
-      ...values,
-      phone: 91,
-    });
-    values.phone = 91;
-    // console.log(values.phone, "phone number trig");
-  };
+  // const givedefaultNumberCode = (e) => {
+  //   e.preventDefault();
+  //   setvalues({
+  //     ...values,
+  //     phone: 91,
+  //   });
+  //   values.phone = 91;
+  //   // console.log(values.phone, "phone number trig");
+  // };
 
   const validate = () => {
     let temp = {};
@@ -135,7 +135,7 @@ const Register = () => {
         .then(function (response) {
           // console.log(JSON.stringify(response.data));
           if (response.data.hasOwnProperty("msg")) {
-            console.log("Already registered!", isRegistered);
+            // console.log("Already registered!", isRegistered);
             setExistinguser(true);
             // isExistingUser = true;
             setRegistered(true);
@@ -198,7 +198,7 @@ const Register = () => {
             variant="outlined"
             value={values.phone}
             onChange={handleInputChange}
-            onClick={givedefaultNumberCode}
+            // onClick={givedefaultNumberCode}
             required
             error={errors.phone}
             helperText={errors.phone}
@@ -206,8 +206,8 @@ const Register = () => {
             color="primary"
             style={{ color: "white" }}
           />
-          <FormControl className="vitian">
-            <div className="inner-vitian">
+          <FormControl className="field-vitian-container">
+            <div className="field-vitian">
               <FormLabel className="inner-vitian-question">
                 Are you a VITian?
               </FormLabel>
@@ -229,7 +229,7 @@ const Register = () => {
           </FormControl>
 
           <div onClick={handleOnSubmit} className="register-regbtn">
-            <Button> REGISTER </Button>
+            <ButtonLgWhite> REGISTER </ButtonLgWhite>
           </div>
         </form>
       </div>
