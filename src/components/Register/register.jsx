@@ -135,7 +135,7 @@ const Register = () => {
         .then(function (response) {
           // console.log(JSON.stringify(response.data));
           if (response.data.hasOwnProperty("msg")) {
-            console.log("Already registered!", isRegistered);
+            // console.log("Already registered!", isRegistered);
             setExistinguser(true);
             // isExistingUser = true;
             setRegistered(true);
