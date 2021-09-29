@@ -130,4 +130,7 @@
   .bg-1 {
     width: 300px;
   }
+  .inner-vitian-question{
+      padding-left: 20px  !important;
+  }
 }
