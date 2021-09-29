@@ -1,6 +1,6 @@
 import React from "react"
 import Session1 from "../../assets/svg/sessions-svg/sessions-1.svg";
-import Session2 from "../../assets/svg/sessions-svg/sessions-2.svg";
+import Session2 from "../../assets/svg/timeline-svg/session-2-black.svg";
 import codesprint1 from "../../assets/svg/codesprint-svg/codesprint-right.svg";
 import codesprint2 from "../../assets/svg/codesprint-svg/codesprint-left.svg"
 
