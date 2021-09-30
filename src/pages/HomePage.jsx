@@ -8,8 +8,10 @@ import About from "../components/About/about";
 import Sessions from "../components/Sessions/sessions";
 import Timeline from "../components/Timeline/timeline";
 import CodeSprint from "../components/CodeSprint/codesprint";
-// import FAQ from "../components/FAQ/faq";
+import FAQ from "../components/FAQ/faq";
 import Footer from "../components/Footer/footer";
+
+
 
 const HomePage = () => {
   return (
@@ -24,7 +26,7 @@ const HomePage = () => {
         <Timeline />
         <Sessions />
         <CodeSprint />
-        {/* <FAQ /> */}
+        <FAQ />
         <Footer/>
       </div>
     </div>
