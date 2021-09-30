@@ -14,7 +14,7 @@ export default function QuestionBox(props) {
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
-    console.log(`panel${props.index+1}`);
+    // console.log(`panel${props.index+1}`);
   };
  
   return (
