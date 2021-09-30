@@ -22,7 +22,7 @@ To get started:
 - ```git commit -m "A short description about the feature"```
 - ```git push origin my-amazing-feature```
 - Open a pull request :)
-- Refer to .env sample for the backend 
+- Refer to .env.sample for environment variables
 
 ## Contribute :
 
