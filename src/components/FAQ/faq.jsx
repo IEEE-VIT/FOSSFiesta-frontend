@@ -2,7 +2,7 @@
 // import "./faq.styles.css";
 
 // import QuestionBox from "../Question-box/question-box";
-// import FAQS from "../../assets/faqs/questions";
+import FAQSList from "../../assets/faqs/questions";
 
 // const FAQ = () => {
 //   const questionItems = FAQS.map((question) => <QuestionBox question={question.question}/>)
@@ -13,3 +13,20 @@
 // };
 
 // export default FAQ;
+
+
+import "./faq.styles.css"
+import QuestionBox from "../Question-box/question-box";
+
+export default function FAQ() {
+    const FAQItems = FAQSList.map((set, index) => {
+        return(  <QuestionBox question={set.question} answer={set.answer} index={index}></QuestionBox>)
+    })
+  return (
+    <div className="faq-container">
+    <h1 className="faq-heading">FAQ's</h1>
+    <hr className="faq-hr"/>
+      {FAQItems}
+    </div>
+  );
+}
