@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# FOSSFiesta
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](./src/assets/GitHub-Readme.png)
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+> This project hosts the front-end of the website for [FOSSFieta](https://fossfiesta.ieeevit.org/) where you can register for the event
 
-### `yarn start`
+IEEE-VIT's event FOSSFiesta is party of free and open source softwares, consisting of 2 sessions namely Open Source Takeover and Git.Set.Go, where we would be inclined to help you solve all you doubts on open source, Hacktoberfest, GitHub, Git and have an amazing competition filled with fabulous swags at the end. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack used
+- React Js 
+- Material UI
+- Cloudfare
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting started
+To get started:
+- Clone the repo. ```git clone https://github.com/IEEE-VIT/FOSSFiesta-frontend.git```
+- Checkout to a new branch. ```git checkout -b my-amazing-feature```
+- Make some amazing changes.
+- ```git add .```
+- ```git commit -m "A short description about the feature"```
+- ```git push origin my-amazing-feature```
+- Open a pull request :)
+- Refer to .env.sample for environment variables
 
-### `yarn test`
+## Contribute :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+New contributors are always welcome to support this project. 
 
-### `yarn build`
+To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/FOSSFiesta-frontend/blob/master/CONTRIBUTING.md). 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+New contributors are always welcome to support this project 🤝
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you want something gentle to start with, check out issues labelled as easy or good-first-issue. 
+Check out issues labelled as hacktoberfest if you are up for some grabs! :)
 
-### `yarn eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under [MIT](https://github.com/IEEE-VIT/FOSSFiesta-frontend/blob/master/LICENSE.md)
