@@ -1,4 +1,18 @@
-/* .faqs-heading{
+.faq-container{
     margin: 2vh 9vw;
+    text-align: left;
 }
- */
+.faq-heading{
+ margin-bottom: 0;
+}
+.faq-hr{
+    height: 0px;
+    border: 2px solid #8c2e13;
+    margin: 0;
+    width: 90px;
+}
+
+
+/* .MuiPaper-elevation,.MuiAccordion-gutters {
+    background-color:#2b3531 !important ;
+} */
