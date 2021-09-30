@@ -15,7 +15,7 @@ const Timeline = () => {
       className="vertical-timeline-element--session"
       contentStyle={{ background:  '#F4F0E1', color: '#FF8351' }}
       contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-      date="October 2 : 11:00 AM - 01:00 PM"
+      date="October 2 : 11:00 AM - 01:00 PM IST"
       iconStyle={{ background: '#F4F0E1', color: '#fff' }}
       icon={<Icon id="0"/>}
     >
@@ -28,7 +28,7 @@ const Timeline = () => {
 
     <VerticalTimelineElement
       className="vertical-timeline-element--session"
-      date="October 2: 4:00 PM - 06:00 PM"
+      date="October 2: 4:00 PM - 06:00 PM IST"
       contentStyle={{ background: '#F4F0E1', color: '#FF8351' }}
       iconStyle={{ background: '#F4F0E1', color: '#fff' }}
       icon={<Icon id="1"/>}
@@ -42,7 +42,7 @@ const Timeline = () => {
    
     <VerticalTimelineElement
       className="vertical-timeline-element--event"
-      date="October 2 : 6:00 PM - 02:00 AM"
+      date="October 2 : 6:00 PM - 02:00 AM IST"
       contentStyle={{ background: '#F4F0E1', color: '#FF8351' }}
       iconStyle={{ background: '#F4F0E1', color: '#fff'}}
       icon={<Icon id="2"/>}
