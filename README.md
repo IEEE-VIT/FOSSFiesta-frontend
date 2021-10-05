@@ -6,7 +6,7 @@
 
 > This project hosts the front-end of the website for [FOSSFieta](https://fossfiesta.ieeevit.org/) where you can register for the event
 
-IEEE-VIT's event FOSSFiesta is party of free and open source softwares, consisting of 2 sessions namely Open Source Takeover and Git.Set.Go, where we would be inclined to help you solve all you doubts on open source, Hacktoberfest, GitHub, Git and have an amazing competition filled with fabulous swags at the end. 
+IEEE-VIT's event FOSSFiesta is party of free and open source softwares, consisting of 2 sessions namely Open Source Takeover and Git.Set.Go, where we would be inclined to help you solve all your doubts on open source, Hacktoberfest, GitHub, Git and have an amazing competition filled with fabulous swags at the end. 
 
 ## Tech Stack used
 - React Js 
